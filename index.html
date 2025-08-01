@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DigitMarkT™ | Tech Showcase</title>
+  <link rel="icon" href="logo.png" type="image/png" />
+  <style>
+    :root {
+      --forest-green: #0b3d2e;
+      --dark-blue: #001f3f;
+      --gold: #ffd700;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      font-style: italic;
+      background: linear-gradient(to bottom right, var(--forest-green), var(--dark-blue));
+      color: #f1f1f1;
+      padding: 1rem;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .logo {
+      width: 120px;
+      margin: 1rem auto;
+      display: block;
+      animation: zoomIn 1s ease;
+      filter: drop-shadow(2px 2px 8px gold);
+    }
+
+    h1 {
+      font-style: italic;
+      color: var(--gold);
+      font-size: 2rem;
+      text-shadow: 1px 1px 5px #ffd700aa;
+    }
+
+    .tagline {
+      font-size: 1.1rem;
+      margin-top: 0.3rem;
+      color: #ccc;
+    }
+
+    .section {
+      background-color: rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li::before {
+      content: "\2714\FE0F ";
+      color: limegreen;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.7rem 1.2rem;
+      background: transparent;
+      border: 2px solid var(--gold);
+      color: var(--gold);
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      font-style: italic;
+    }
+
+    .btn:hover {
+      background: var(--gold);
+      color: #000;
+    }
+
+    .qr-code {
+      width: 180px;
+      margin: 1rem auto;
+      display: block;
+      border: 3px solid gold;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+
+    @keyframes zoomIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="DigitMarkT Logo" class="logo" />
+    <h1>DigitMarkT™</h1>
+    <p class="tagline">Transforming Ideas into Reality with Code</p>
+  </header>
+
+  <section class="section">
+    <h2>💡 Technologies We Use</h2>
+    <ul>
+      <li>HTML5, CSS3</li>
+      <li>JavaScript (ES6+)</li>
+      <li>Python & Flask</li>
+      <li>Responsive Web Design</li>
+      <li>App UI/UX & Branding</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>📱 Scan to Explore Our Work</h2>
+    <img src="qr-digitmarkt.png" alt="QR Code" class="qr-code" />
+    <p><a href="https://siya019910.github.io/DigitMarkT-second/portfolio.html" class="btn">Visit Full Portfolio</a></p>
+  </section>
+
+  <footer>
+    <p>DigitMarkT™ &copy; 2025 — Built by Siyabonga Thomo</p>
+    <p>📧 siyabongathomo.tpy@gmail.com | 📱 064 212 2136</p>
+  </footer>
+</body>
+</html>
